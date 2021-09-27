@@ -1,0 +1,51 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  --transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+  --very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+
+  --ff-Big-Shoulders-Display: "Big Shoulders Display", cursive;
+  --ff-Lexend: "Lexend Deca", sans-serif;
+}
+
+.ff-Big-Shoulders-Display {
+  font-family: var(--ff-Big-Shoulders-Display);
+}
+
+.ff-Lexend {
+  font-family: var(--ff-Lexend);
+}
+
+.bg-cyan-500 {
+  background-color: var(--dark-cyan);
+}
+
+.text-cyan-500 {
+  color: var(--dark-cyan);
+}
+
+.bg-cyan-600 {
+  background-color: var(--very-dark-cyan);
+}
+
+.text-cyan-600 {
+  color: var(--very-dark-cyan);
+}
+
+.bg-orange-500 {
+  background-color: var(--bright-orange);
+}
+
+.text-orange-500 {
+  color: var(--bright-orange);
+}
+
+.text-white-paragraphs {
+  color: var(--transparent-white-paragraphs);
+}
+
+.text-white-headings {
+  color: var(--very-light-gray-background-headings-buttons);
+}
